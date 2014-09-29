@@ -4,9 +4,9 @@ main:
 	
 	mov r0, #101    /* a=101*/
 	mov r1, #5      /* b=5 */
-	mov r2, r0
-	mov r3, #0
 	
+	mov r3, #0
+	mov r2, r0
 	cmp r2, r1
 	
 	blt end
