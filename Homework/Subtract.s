@@ -9,7 +9,7 @@ main:
 	
 	cmp r2, r1
 	
-	blt
+	blt end
 	subtract:
 	add r2, #1
 	sub r2, r2, r1
