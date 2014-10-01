@@ -19,5 +19,4 @@ main:
 	bge subtract
 	
 	end:
-	SWI 2
-	
+	bx lr
