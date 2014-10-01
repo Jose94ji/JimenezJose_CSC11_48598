@@ -9,7 +9,7 @@ main:
 	mov r0, r2
 	cmp r0, r1
 	
-	blt end
+	blt subtract
 	
 	subtract:
 	add r3, #1
